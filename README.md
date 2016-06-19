@@ -13,12 +13,10 @@
 Installation
 ------------
 
-`To be added soon`
+`npm install composejs`
 
 Usage
 -----
-
-## Usage
 
 ```js
 var composeJs = require('composeJs')
@@ -27,7 +25,7 @@ function addThree (x) { return x+3}
 var composed = composeJs(addTwo, addThree)
 
 composed(2) // 7
-compose(18) // 23
+composed(18) // 23
 ```
 
 License
